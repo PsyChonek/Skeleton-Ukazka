@@ -1,0 +1,2 @@
+Tak, jedná se o program, který hledá 1:1 shodu na obrázku. Buď podle obrázků ve složce nebo volitelného a zvyrazní je.
+Taky dokáže vybrat, místo které je podle kritérii, vzdálenosti od každého bodu a zájmu o bod, nejvhodnější. 
