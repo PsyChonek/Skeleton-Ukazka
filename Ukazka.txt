@@ -1,4 +1,11 @@
-﻿using Emgu.CV;
+Tak, jedná se o program, který hledá 1:1 shodu na obrázku. Buď podle obrázků ve složce nebo volitelného a zvyrazní je.
+Taky dokáže vybrat místo, místo které je podle kritérii, vzdálenosti od každého bodu a zájmu o bod, nejvhodnější. 
+
+Program využívá knihovny Emgu pro práci s obrázky.
+
+
+
+using Emgu.CV;
 using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using System;
@@ -35,25 +42,7 @@ namespace RustBestSpot
 
         Dictionary<string, int> mapPlacesValue = new Dictionary<string, int>() { 
             { "gasstation", 1 },
-            { "junkyard", 1 },
-            { "lighthouse", 1 },
-            { "supermarket", 1 },
-            { "powerplant", 1 },
-            { "airfield", 1 },
-            { "trainyard", 1 },
-            { "watertreatment", 1 },
-            { "militarytunnel", 1 },
-            { "launchsite", 1 },
-            { "cabin", 1 },
-            { "swamp", 1 },
-            { "warehouse", 1 },
-            { "outpost", 1 },
-            { "dome", 1 },
-            { "dish", 1 },
-            { "fishing", 1 },
-            { "harbor", 1 },
-            { "radtown", 1 },
-            { "excavator", 1 }};
+            { "junkyard", 1 }};
 
         Dictionary<Point, double> pointValue = new Dictionary<Point, double>();
 
